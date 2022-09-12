@@ -16,6 +16,9 @@
 #              $ShortcutPath = "C:\Users\admin\Desktop\"
 #>
 
+# Uncomment and use this variable if you want to make a .url visible on all user desktops
+# $PublicDesktopPath = [Environment]::GetFolderPath("CommonDesktopDirectory")
+
 $ShortcutName = ""
 $ShortcutPath = ""
 $URL = ""
